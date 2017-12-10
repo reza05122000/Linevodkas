@@ -125,7 +125,7 @@ def SEND_MESSAGE(op):
             if msg.contentType == 0:
                 if msg.text == "mid":
                     sendMessage(msg.to, msg.to)
-                if msg.text == "me":
+                if msg.text == "/battle":
                     sendMessage(msg.to, text="/join")
         else:
             pass
